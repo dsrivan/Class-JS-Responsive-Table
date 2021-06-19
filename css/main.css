@@ -8,12 +8,12 @@ body {
   display: flex;
   justify-content: center;
   font-size: 16px;
-  font-family: 'Tahoma';
+  font-family: "Tahoma";
   background-color: #f5f5f5;
   overflow-x: hidden;
 }
 
-#parent { 
+#parent {
   width: 100%;
   max-width: 1200px;
   /*background-color: #fff;*/
@@ -28,30 +28,33 @@ body {
   margin: 20px 0;
   border-radius: 4px;
   box-shadow: 0px 0px 10px #ececec;
+  text-align: center;
 }
 
 #parent .title h1 {
   font-size: 2rem;
-} 
+}
 
 #parent .title h3 {
   text-transform: uppercase;
 }
 
 #parent .title h3 {
-  margin-bottom: 4px;  
+  margin-bottom: 4px;
 }
 
 #parent .title p {
-  margin: 10px 0 30px 0;  
+  margin: 10px 0 30px 0;
 }
 
 #parent p {
   color: gray;
 }
 
-#parent, #parent .table, table {
-  border-radius: .25rem;
+#parent,
+#parent .table,
+table {
+  border-radius: 0.25rem;
 }
 
 #parent .table {
@@ -61,7 +64,7 @@ body {
 
 #parent .table .table-titles {
   display: flex;
-  align-items: baseline; 
+  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -90,7 +93,7 @@ table thead tr th:last-child {
   border-top-right-radius: 4px;
 }
 
-table thead, 
+table thead,
 table tbody tr {
   display: table;
   width: 100%;
@@ -110,7 +113,7 @@ table tbody tr {
 }
 
 table tbody tr:hover {
-  background-color: rgba(86, 97, 179, .1);
+  background-color: rgba(86, 97, 179, 0.1);
   color: rgba(86, 97, 179, 1);
 }
 
@@ -141,7 +144,7 @@ table tbody tr td:before {
   font-weight: bold;
   top: 15px;
   left: 10px;
-  transition: padding .2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
   display: none;
   color: #5661b3;
 }
@@ -190,7 +193,7 @@ table tbody tr td:before {
     display: block;
     width: 100% !important;
     text-align: right;
-    transition: padding .2s ease-in-out;
+    transition: padding 0.2s ease-in-out;
     border-bottom: 1px solid #efefef;
   }
 
